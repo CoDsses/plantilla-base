@@ -3,12 +3,14 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { AdminRoutes } from './admin.routing';
 import { UsersPageComponent } from './pages/users-page/users-page.component';
+import { TitleComponent } from './components/title/title.component';
 
 
 
 @NgModule({
   declarations: [
-    UsersPageComponent
+    UsersPageComponent,
+    TitleComponent
   ],
   imports: [
     CommonModule,
