@@ -5,6 +5,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { RouterModule } from '@angular/router';
+import { LoginLayoutComponent } from './login-layout/login-layout.component';
 
 
 
@@ -13,7 +14,8 @@ import { RouterModule } from '@angular/router';
     AdminLayoutComponent,
     FooterComponent,
     NavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    LoginLayoutComponent
   ],
   imports: [
     CommonModule,
