@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { RouterModule } from '@angular/router';
 import { LoginLayoutComponent } from './login-layout/login-layout.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -19,7 +20,8 @@ import { LoginLayoutComponent } from './login-layout/login-layout.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   exports: [
     AdminLayoutComponent

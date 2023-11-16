@@ -1,1 +1,35 @@
-<app-title title="Usuarios"></app-title>
+<app-title title="Hola"></app-title>
+
+
+
+
+
+<table class="table">
+  <thead style="color: black;">
+
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Dirección</th>
+    <th>Teléfono</th>
+    <th>Ciudad</th>
+
+    <th></th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let usuario of usuarios.usuario">
+
+      <td>{{usuario.Nombre}}</td>
+      <td>{{usuario.Apellido}}</td>
+      <td>{{usuario.Direccion}}</td>
+      <td>{{usuario.Telefono}}</td>
+      <td>{{usuario.Ciudad}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="btn btn-outline-danger mx-2">
+  No mostrar
+</button>
+<button class="btn btn-primary mb-6">
+  mostrar
+</button>
